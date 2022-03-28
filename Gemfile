@@ -55,7 +55,11 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-#install haml
+#haml
 gem "haml-rails", "~> 2.0"
-#install simple form
+#simple form
 gem 'simple_form'
+#faker to populate db
+gem 'faker'
+#authentication
+gem 'devise'

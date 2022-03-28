@@ -34,10 +34,13 @@
   // = link_to privacy_policy_path, class: "btn btn-lg btn-warning" do
   //   %i.fa-solid.fa-video
   //   Videos
-  = link_to "Privacy Policy", privacy_policy_path, class: "btn btn-lg btn-warning"
-  = link_to courses_path, class: "btn btn-lg btn-warning" do
+  = link_to privacy_policy_path, class: "btn btn-lg btn-warning" do
     %i.fa-solid.fa-video
     Videos
+    
+  = link_to  courses_path, class: "btn btn-lg btn-warning" do
+    %i.fa-solid.fa-book
+    Courses
 // .fa.fa-flag
 // .fab.fa-amazon
 // =link_to root_path do
