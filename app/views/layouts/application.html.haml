@@ -11,6 +11,7 @@
     //initializing the application.scss
     = stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload'
   %body
-    %p.notice= notice
-    %p.alert= alert
-    = yield
+    =render 'layouts/header'
+    =render 'layouts/messages'
+    .container
+      = yield

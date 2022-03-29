@@ -1,8 +1,8 @@
 require "test_helper"
 
-class StaticPagesControllerTest < ActionDispatch::IntegrationTest
-  test "should get landing_page" do
-    get static_pages_landing_page_url
+class HomeControllerTest < ActionDispatch::IntegrationTest
+  test "should get index" do
+    get Home_index_url
     assert_response :success
   end
 
