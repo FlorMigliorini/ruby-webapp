@@ -6,8 +6,8 @@ class HomeControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
-  test "should get privacy_policy" do
-    get static_pages_privacy_policy_url
+  test "should get video" do
+    get home_video_url
     assert_response :success
   end
 end
